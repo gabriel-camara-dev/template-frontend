@@ -55,10 +55,12 @@ export function LoginForm() {
         placeholder="Senha"
         error={errors.password?.message}
       />
+
+      {errors.root && <p className={styles.error}>{errors.root.message}</p>}
+
       <button type="submit" disabled={isSubmitting || isPending}>
         {isPending ? 'Entrando...' : 'Entrar'}
       </button>
-      {errors.root && <p className={styles.error}>{errors.root.message}</p>}
     </form>
   )
 }
