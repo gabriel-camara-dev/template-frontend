@@ -4,5 +4,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --primary-color: #1c1c1e; /* Preto suave / fundo principal */
+  --secondary-color: #2c2c2e; /* Cinza escuro para elementos secundários */
+  --background-color: #f9f9f9; /* Quase branco, ideal para fundo geral */
+  --text-color: #1a1a1a; /* Quase preto, ótimo para legibilidade */
+  --border-color: #d1d1d6; /* Cinza claro para bordas e divisores */
+  --muted-text-color: #6e6e73; /* Cinza médio para textos menos importantes */
 }
