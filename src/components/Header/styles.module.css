@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #282c34;
+  color: var(--primary-color);
+}
+
+.logo {
+  margin-left: 80px;
+}
+
+.navList {
+  display: flex;
+  margin-right: 100px;
+  gap: 30px;
+  font-size: 20px;
+}
