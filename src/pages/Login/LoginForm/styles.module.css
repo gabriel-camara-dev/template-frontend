@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 18px;
+  position: relative;
 }
 
 .error {
@@ -10,6 +11,6 @@
   font-size: 0.7rem;
   position: absolute;
   left: 6px;
-  top: 94%;
+  top: 100%;
   margin-top: 4px;
 }

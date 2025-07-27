@@ -4,6 +4,7 @@ import { z } from 'zod'
 import { useAuth } from '../../../hooks/useAuth'
 import Input from '../../../components/ui/Input'
 import styles from './styles.module.css'
+import Button from '../../../components/ui/Button'
 
 const schema = z.object({
   emailOrCPF: z
@@ -58,9 +59,9 @@ export function LoginForm() {
 
       {errors.root && <p className={styles.error}>{errors.root.message}</p>}
 
-      <button type="submit" disabled={isSubmitting || isPending}>
+      <Button type="submit" disabled={isSubmitting || isPending}>
         {isPending ? 'Entrando...' : 'Entrar'}
-      </button>
+      </Button>
     </form>
   )
 }
