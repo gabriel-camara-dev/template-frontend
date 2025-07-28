@@ -8,7 +8,7 @@ export default function Header() {
       <nav>
         <ul className={styles.navList}>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/">Example</Link></li>
+          <li><Link to="/login">Login</Link></li>
           <li><Link to="/">Example</Link></li>
         </ul>
       </nav>
