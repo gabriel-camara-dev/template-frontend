@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './styles.module.css'
 
 export default function Header() {
@@ -6,9 +7,9 @@ export default function Header() {
       <h2 className={styles.logo}>Template</h2>
       <nav>
         <ul className={styles.navList}>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/">Example</Link></li>
+          <li><Link to="/">Example</Link></li>
         </ul>
       </nav>
     </header>
